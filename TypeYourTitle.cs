@@ -10,7 +10,7 @@ namespace Petzold.TypeYourTitle
 {
     public class TypeYourTitle : Window //создан класс TypeYourTitle типа Window
     {         
-        [STAThread]         
+        [STAThread]  // используется один поток       
         public static void Main()         
         {             
             Application app = new Application(); //создает объект app класса Appliation           
