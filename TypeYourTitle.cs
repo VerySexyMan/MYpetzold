@@ -14,7 +14,7 @@ namespace Petzold.TypeYourTitle
         public static void Main()         
         {             
             Application app = new Application(); //создает объект app класса Appliation           
-            app.Run(new TypeYourTitle()); 
+            app.Run(new TypeYourTitle()); // запуск
         }         
         protected override void OnTextInput (TextCompositionEventArgs args)         
         {             
